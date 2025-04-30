@@ -74,6 +74,12 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card p strong {
+  display: block;
+  margin-top: 5px;
+  color: #333;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -134,6 +140,21 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+.participants-container {
+  margin-top: 10px;
+}
+
+.participant-badge {
+  display: inline-block;
+  background-color: #e3f2fd;
+  color: #1e88e5;
+  border: 1px solid #90caf9;
+  border-radius: 12px;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
 }
 
 footer {
